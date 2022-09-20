@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Courier New', monospace;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background: #ccc;
+    box-shadow: 0 5px 15px #ccc;
+    text-transform: uppercase;
+}
+
+header > h1{
+    letter-spacing: .5em;
+    color: #333;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.choice {
+    display: flex;
+}
+
+.choice > a{
+    font-size: 17px;
+    font-weight: 550;
+    color: #f38c06;
+    margin: 0 .7em;
+    padding: 10px;
+}
+
+.choice > a:hover {
+    text-decoration: underline;
+    color: #a3e4f8;
+    background-color: #aaa;
+    border-radius: 20px;
+    font-size: 15px;
+    transition: all 500ms ease-in-out;
+}
+
+main{
+    display: grid;
+    place-items: center;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+    background: #333;
+    border-radius: 15px;
+    color: #eee;
+    box-shadow: inset 5px 5px 30px 5px #ccc;
+    width: 70%;
+    height: 350px;
+    margin: 15vh auto 0 auto;
+}
+
+.color{
+    line-height: 2em;
+    text-align: center;
+    font-size: 25px;
+}
+
+#color{
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    font-weight: 700;
+    transition: all 500ms ease-in;
+    color: #fff;
+    background-color: #a0a0a0;
+    margin: 5px auto;
+    font-size: 18px;
+    display: grid;
+    place-items: center;
+}
+
+.button{
+    font-size: 20px;
+    cursor: pointer;
+    padding: 15px;
+    background: #c0c0c0;
+    color: #333;
+    border-radius: 25px;
+}
+
+.button:hover{
+    transform: scale(.85);
+    transition: 500ms ease;
+}
+
+.attribution {
+    font-weight: 700;
+    text-align: center;
+    margin: 15% auto;
+}
+
+.attribution a{
+    font-family: 'Lucida Sans', sans-serif;
+    text-decoration: none;
+    font-weight: 900;
+    color: #f38c06;
+}
+
+
+@media screen and (max-width: 720px) {
+    
+    header{
+        padding: 7px;
+        padding-top: 25px;
+        align-items: flex-start;
+    }
+    
+    .choice > a{
+        text-align: center;
+        line-height: 1.3em;
+        font-size: 14px;
+        height: 20px;
+        margin-right: 5px;
+        padding: 3px;
+    }
+
+    header > h1{
+        font-size: 15px;
+    }
+
+}
