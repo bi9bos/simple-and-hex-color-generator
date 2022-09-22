@@ -1,5 +1,5 @@
 # simple-and-hex-color-generator
-This generates a random hex color for you. I'll be adding ones for hsl, hsla, rga adn rgb soon.
+This generates a random hex color for you. I'll be adding ones for hsl, hsla, rga adn rgb soon. Check it out at https://csscolor-generator.netlify.app
 
 
 ![Screenshot 2022-09-20 at 09-34-34 Color Code Generator](https://user-images.githubusercontent.com/91544648/191261161-a5835da6-c215-4756-b36f-791cd1355ea4.png)
